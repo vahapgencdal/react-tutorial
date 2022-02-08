@@ -44,7 +44,9 @@ store.dispatch(increment());
 store.dispatch(increment());
 store.dispatch(increment());
 store.dispatch(decrement());
-
+//when you dispatch any action, action will return an object with type
+//then our reducer is going to check will action.type dispatched 
+//then reducer return updated state
 
 ReactDOM.render(
   <React.StrictMode>
